@@ -1,0 +1,28 @@
+{
+  "name": "eetaree-api",
+  "version": "1.0.0",
+  "description": "API for Eetaree crowd-sourced menu-item reviews app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jayrbarr/eetaree-api.git"
+  },
+  "keywords": [
+    "restaurant",
+    "menu",
+    "reviews",
+    "api"
+  ],
+  "author": "Jay Barr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayrbarr/eetaree-api/issues"
+  },
+  "homepage": "https://github.com/jayrbarr/eetaree-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
