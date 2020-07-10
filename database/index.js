@@ -14,6 +14,6 @@ const resolvers = {
   }
 }
 
-const server = new ApolloServer({ typeDefs, resolvers });
+const database = new ApolloServer({ typeDefs, resolvers });
 
-module.exports = server;
+module.exports = database;
