@@ -2,9 +2,9 @@
   "name": "eetaree-api",
   "version": "1.0.0",
   "description": "API for Eetaree crowd-sourced menu-item reviews app",
-  "main": "index.js",
+  "main": "./server/index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +24,10 @@
   },
   "homepage": "https://github.com/jayrbarr/eetaree-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "apollo-server-express": "^2.15.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
